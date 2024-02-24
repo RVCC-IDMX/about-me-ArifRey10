@@ -2,12 +2,14 @@ body {
     font-family: Roboto;
     background-color: #eb810f;
     color:#B9E1F0;
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6
 {
     font-family: "Grenze Gotisch";
     font-size: 30pt;
+    text-align: center;
 }
 
 header{
@@ -19,13 +21,17 @@ header{
     border: 2px solid #B9E1F0;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 #hero img {
-    width: 300px;
+    width: 200px;
 }
 
 #bio{
     text-align: center;
+}
+
+#bio ul li:nth-child(even){
+    color:black
 }
